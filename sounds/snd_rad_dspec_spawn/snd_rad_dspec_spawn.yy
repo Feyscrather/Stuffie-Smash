@@ -18,6 +18,6 @@
   "duration": 1.75,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Characters/Radian/Attacks/Sounds.yy",
+    "path": "folders/Characters/Demo/Radian/Attacks/Sounds.yy",
   },
 }

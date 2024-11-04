@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scalar",
-    "path": "folders/Characters/Scalar.yy",
+    "path": "folders/Characters/Demo/Scalar.yy",
   },
 }

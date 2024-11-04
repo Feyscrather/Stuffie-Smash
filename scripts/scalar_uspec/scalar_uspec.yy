@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Characters/Scalar/Attacks/Scripts.yy",
+    "path": "folders/Characters/Demo/Scalar/Attacks/Scripts.yy",
   },
 }

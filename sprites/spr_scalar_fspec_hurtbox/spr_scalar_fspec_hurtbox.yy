@@ -121,6 +121,6 @@
   },
   "parent": {
     "name": "Sprites",
-    "path": "folders/Characters/Scalar/Attacks/Sprites.yy",
+    "path": "folders/Characters/Demo/Scalar/Attacks/Sprites.yy",
   },
 }

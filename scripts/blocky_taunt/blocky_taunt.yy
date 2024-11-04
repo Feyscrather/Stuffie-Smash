@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Characters/Blocky/Attacks/Scripts.yy",
+    "path": "folders/Characters/Louie/Attacks/Scripts.yy",
   },
 }

@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Characters/Radian/Scripts.yy",
+    "path": "folders/Characters/Demo/Radian/Scripts.yy",
   },
 }

@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Characters/Vertex/Attacks/Scripts.yy",
+    "path": "folders/Characters/Demo/Vertex/Attacks/Scripts.yy",
   },
 }

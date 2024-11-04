@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Vertex",
-    "path": "folders/Characters/Vertex.yy",
+    "path": "folders/Characters/Demo/Vertex.yy",
   },
 }

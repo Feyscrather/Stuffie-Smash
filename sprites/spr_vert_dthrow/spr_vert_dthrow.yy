@@ -96,6 +96,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Characters/Vertex/Attacks/Sprites.yy",
+    "path": "folders/Characters/Demo/Vertex/Attacks/Sprites.yy",
   },
 }

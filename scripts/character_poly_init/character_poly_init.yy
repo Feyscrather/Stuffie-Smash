@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Polygon",
-    "path": "folders/Characters/Polygon.yy",
+    "path": "folders/Characters/Demo/Polygon.yy",
   },
 }

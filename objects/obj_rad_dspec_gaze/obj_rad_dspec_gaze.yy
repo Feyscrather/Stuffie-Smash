@@ -36,6 +36,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Characters/Radian/Objects.yy",
+    "path": "folders/Characters/Demo/Radian/Objects.yy",
   },
 }
