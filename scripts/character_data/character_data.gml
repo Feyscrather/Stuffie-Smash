@@ -8,8 +8,8 @@ function character_data_get_all()
 		[
 		character_define
 			(
-			"Blocky",
-			character_blocky_init,
+			"Louie",
+			character_louie_init,
 			spr_blocky_palette,
 			spr_blocky_css,
 			spr_blocky_css,

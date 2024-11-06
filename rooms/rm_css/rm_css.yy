@@ -39,7 +39,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Character_Zones","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A4BE87E","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":null,"objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"value":"0",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"character_name","path":"objects/obj_css_zone/obj_css_zone.yy",},"objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"value":"Blocky",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"character_name","path":"objects/obj_css_zone/obj_css_zone.yy",},"objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"value":"Louie",},
           ],"isDnd":false,"objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":7.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":48.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_182DC6E1","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":null,"objectId":{"name":"obj_css_zone","path":"objects/obj_css_zone/obj_css_zone.yy",},"value":"1",},

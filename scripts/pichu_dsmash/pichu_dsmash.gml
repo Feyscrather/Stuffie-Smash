@@ -80,7 +80,7 @@ function pichu_dsmash()
 					//Final Hit
 					var _damage = calculate_smash_damage(3);
 					var _hitbox = hitbox_create_melee(16, 0, 0.9, 0.3, _damage, 9, 1.1, 8, 35, 5, SHAPE.square, 1);
-					_hitbox.hit_vfx_style = [HIT_VFX.normal_strong, HIT_VFX.electric];
+					_hitbox.hit_vfx_style = HIT_VFX.normal_strong;
 					_hitbox.hit_sfx = snd_hit_electro;
 					_hitbox.extra_hitlag = 5;
 					}

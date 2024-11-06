@@ -43,7 +43,6 @@ function louie_dspec()
 				
 					attack_phase++;
 					attack_frame = 20;
-					invulnerability_set(INV.counter, 20);
 					speed_set(0, 1, true, false);
 					}
 				
@@ -107,7 +106,7 @@ function louie_dspec()
 				if (attack_frame == 0)
 					{
 					custom_passive_struct.potion_count++
-					clamp(custom_passive_struct.potion_count, 0, 5)
+					if (custom_passive_struct.potion_count > 5) custom_passive_struct.potion_count = 5;
 					attack_stop();
 					}
 				
