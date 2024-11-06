@@ -25,7 +25,7 @@ function louie_uair()
 				anim_sprite = spr_mario_uair;
 				anim_frame = 0;
 				anim_speed = 0;
-			
+				custom_passive_struct.potion_count--;
 				landing_lag = 10;
 				speed_set(0, -1, true, true);
 				attack_frame = 3;

@@ -33,7 +33,7 @@ function louie_fair()
 				anim_sprite = spr_bowser_fair;
 				anim_speed = 0;
 				anim_frame = 0;
-		
+				custom_passive_struct.potion_count--;
 				attack_frame = 10;
 				landing_lag = 14;
 				speed_set(0, -1, true, true);

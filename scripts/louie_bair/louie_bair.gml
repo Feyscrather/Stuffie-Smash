@@ -24,7 +24,7 @@ function louie_bair()
 				anim_sprite = spr_k_rool_bair;
 				anim_speed = 0;
 				anim_frame = 0;
-				
+				custom_passive_struct.potion_count--;
 				landing_lag = 12;
 				speed_set(0, -2, true, true);
 				attack_frame = 18;
