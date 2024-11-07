@@ -36,6 +36,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Characters/Demo/Polygon/Objects.yy",
+    "path": "folders/Characters/Flopsy/Objects.yy",
   },
 }

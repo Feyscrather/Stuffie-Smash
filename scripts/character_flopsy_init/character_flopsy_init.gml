@@ -1,5 +1,5 @@
 //Sets all of the variables for a character
-function character_poly_init()
+function character_flopsy_init()
 	{
 	if (!object_is(object_index, obj_player))
 		{
@@ -209,8 +209,7 @@ function character_poly_init()
 		
 		//Custom Scripts
 		draw_script = -1;
-		callback_add(callback_passive, poly_passive, CALLBACK_TYPE.permanent);
-		callback_add(callback_overhead, poly_overhead, CALLBACK_TYPE.permanent);
+		callback_add(callback_passive, bayonetta_fspec_afterburner_passive, CALLBACK_TYPE.permanent);
 		}
 
 	//States
@@ -226,35 +225,35 @@ function character_poly_init()
 	if (_set_attacks)
 		{
 		my_attacks[$ "Jab"			] = poly_jab;
-		my_attacks[$ "Dash_Attack"	] = dread_dash_attack;
-		my_attacks[$ "Ftilt"		] = poly_ftilt;
-		my_attacks[$ "Utilt"		] = poly_utilt;
-		my_attacks[$ "Dtilt"		] = belmont_dtilt;
+		my_attacks[$ "Dash_Attack"	] = basic_dash_attack_claw;
+		my_attacks[$ "Ftilt"		] = sheik_ftilt;
+		my_attacks[$ "Utilt"		] = mario_uair;
+		my_attacks[$ "Dtilt"		] = ryu_dtilt;
 				 
-		my_attacks[$ "Fsmash"		] = cloud_fsmash;
+		my_attacks[$ "Fsmash"		] = chrom_fsmash;
 		my_attacks[$ "Usmash"		] = greninja_usmash;
-		my_attacks[$ "Dsmash"		] = mewtwo_dsmash;
+		my_attacks[$ "Dsmash"		] = flopsy_dsmash;
 				 
-		my_attacks[$ "Nair"			] = poly_nair;
-		my_attacks[$ "Fair"			] = samus_fair;
-		my_attacks[$ "Bair"			] = joker_bair;
+		my_attacks[$ "Nair"			] = scalar_nair;
+		my_attacks[$ "Fair"			] = rad_fair;
+		my_attacks[$ "Bair"			] = basic_bair_shield;
 		my_attacks[$ "Uair"			] = joker_uair;
-		my_attacks[$ "Dair"			] = marth_dair;
+		my_attacks[$ "Dair"			] = basic_dair_stomp;
 				 
-		my_attacks[$ "Nspec"		] = samus_nspec_charge_shot;
-		my_attacks[$ "Fspec"		] = poly_fspec;
-		my_attacks[$ "Uspec"		] = bowser_uspec;
-		my_attacks[$ "Dspec"		] = poly_dspec;
+		my_attacks[$ "Nspec"		] = link_nspec_bow;
+		my_attacks[$ "Fspec"		] = bayonetta_fspec_afterburner;
+		my_attacks[$ "Uspec"		] = flopsy_uspec;
+		my_attacks[$ "Dspec"		] = basic_dspec_counter;
 				 
-		my_attacks[$ "Grab"			] = basic_grab_tether;
-		my_attacks[$ "Dash_Grab"	] = basic_dash_grab_tether;
+		my_attacks[$ "Grab"			] = basic_grab;
+		my_attacks[$ "Dash_Grab"	] = basic_dash_grab;
 		my_attacks[$ "Pummel"		] = poly_pummel;
-		my_attacks[$ "Zair"			] = poly_zair;
+		my_attacks[$ "Zair"			] = -1;
 				 
-		my_attacks[$ "Fthrow"		] = mewtwo_fthrow;
-		my_attacks[$ "Bthrow"		] = poly_bthrow;
-		my_attacks[$ "Uthrow"		] = poly_uthrow;
-		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
+		my_attacks[$ "Fthrow"		] = flopsy_fsmash;
+		my_attacks[$ "Bthrow"		] = scalar_bthrow;
+		my_attacks[$ "Uthrow"		] = basic_dthrow_combo;
+		my_attacks[$ "Dthrow"		] = vert_dthrow;
 				 
 		my_attacks[$ "Getup_Attack"	] = basic_getup_attack;
 		my_attacks[$ "Ledge_Attack"	] = basic_ledge_attack;

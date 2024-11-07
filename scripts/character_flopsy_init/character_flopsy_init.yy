@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "poly_fspec",
+  "name": "character_flopsy_init",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Characters/Flopsy/Attacks/Scripts.yy",
+    "name": "Flopsy",
+    "path": "folders/Characters/Flopsy.yy",
   },
 }

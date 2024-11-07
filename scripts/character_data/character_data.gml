@@ -23,7 +23,7 @@ function character_data_get_all()
 		character_define
 			(
 			"Polygon",
-			character_poly_init,
+			character_flopsy_init,
 			spr_poly_palette,
 			spr_poly_css,
 			spr_poly_css,

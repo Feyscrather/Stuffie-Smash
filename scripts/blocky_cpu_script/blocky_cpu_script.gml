@@ -23,7 +23,7 @@ function blocky_cpu_script()
 				if (sign(_ledge.x - x) == _ledge.image_xscale)
 					{
 					//Make sure you can still use afterburner kick
-					if (attack_can_start(bayonetta_fspec_afterburner))
+					if (attack_can_start(louie_fspec))
 						{
 						cpu_press(INPUT.special);
 						cpu_release(INPUT.attack);
@@ -35,7 +35,7 @@ function blocky_cpu_script()
 					}
 				}
 			}
-		else if (state == PLAYER_STATE.attacking && attack_script == bayonetta_fspec_afterburner)
+		else if (state == PLAYER_STATE.attacking && attack_script == louie_fspec)
 			{
 			//Angle downwards
 			var _ledge = instance_nearest(x, y, obj_ledge);
@@ -50,7 +50,16 @@ function blocky_cpu_script()
 				}
 			}
 		}
-	
+	var _nearest = find_nearest_player(x, y, 150, player_team, false);
+	if !(variable_struct_exists(custom_passive_struct, "potion_count")) {
+		custom_passive_struct.potion_count = 0;
+	}
+	var _over_stage = collision_line(x, y, x, room_height, obj_collidable, false, true);
+	if (_nearest == noone) && (custom_passive_struct.potion_count < 5) && (_over_stage != noone) {
+		_ly = 1;
+		cpu_press(INPUT.special);
+		cpu_hold(INPUT.special);
+	}
 	//Return the changed stick coordinates
 	return
 		{

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "poly_fspec",
+  "name": "flopsy_fsmash",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

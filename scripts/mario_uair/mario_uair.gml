@@ -8,12 +8,8 @@ function mario_uair()
 
 	//Actions
 	friction_gravity(air_friction, grav, max_fall_speed);
-	fastfall_attack_try();
-	allow_hitfall();
-	aerial_drift();
 
 	//Cancels
-	if (run && cancel_ground_check()) then run = false;
 
 	//Main Phases
 	if (run)
@@ -111,7 +107,7 @@ function mario_uair()
 				if (attack_frame == 0)
 					{
 					//Revert back to the original state
-					attack_stop(PLAYER_STATE.aerial);
+					attack_stop(PLAYER_STATE.idle);
 					}
 				break;
 				}
