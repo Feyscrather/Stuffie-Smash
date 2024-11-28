@@ -18,6 +18,6 @@
   "duration": 1.331293,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Characters/Louie/Attacks/Sounds.yy",
+    "path": "folders/Characters/Stuffie Kingdom/Louie/Attacks/Sounds.yy",
   },
 }

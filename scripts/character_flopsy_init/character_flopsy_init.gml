@@ -273,9 +273,9 @@ function character_flopsy_init()
 		my_sprites[$ "Crouch"			] = anim_define(spr_basic_crouch_begin, anim_define(spr_basic_crouch));
 		my_sprites[$ "Walk"				] = spr_basic_walk;
 		my_sprites[$ "Walk_Turn"		] = spr_basic_walk;
-		my_sprites[$ "Dash"				] = spr_basic_run;
-		my_sprites[$ "Run"				] = spr_basic_run;
-		my_sprites[$ "Run_Turn"			] = spr_basic_run;
+		my_sprites[$ "Dash"				] = spr_poly_run;
+		my_sprites[$ "Run"				] = spr_poly_run;
+		my_sprites[$ "Run_Turn"			] = spr_poly_run;
 		my_sprites[$ "Run_Stop"			] = spr_basic_run_stop;
 				 
 		my_sprites[$ "Jumpsquat"		] = spr_basic_jumpsquat;

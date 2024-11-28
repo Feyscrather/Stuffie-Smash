@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Characters/Louie/Attacks/Sprites.yy",
+    "path": "folders/Characters/Stuffie Kingdom/Louie/Attacks/Sprites.yy",
   },
 }

@@ -40,7 +40,6 @@ function louie_fthrow_strength()
 				
 				if (attack_frame == 0)
 					{
-					custom_passive_struct.potion_count--;
 					attack_phase = 1;
 					attack_frame = 10;
 					}

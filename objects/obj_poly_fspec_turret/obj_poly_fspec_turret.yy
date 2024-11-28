@@ -36,6 +36,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Characters/Flopsy/Objects.yy",
+    "path": "folders/Characters/Dark Cove/Flopsy/Objects.yy",
   },
 }

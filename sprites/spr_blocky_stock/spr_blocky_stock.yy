@@ -13,13 +13,13 @@
   "bbox_left": 0,
   "bbox_right": 7,
   "bbox_top": 0,
-  "bbox_bottom": 7,
+  "bbox_bottom": 9,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
   "width": 8,
-  "height": 8,
+  "height": 10,
   "textureGroupId": {
     "name": "texture_character_blocky",
     "path": "texturegroups/texture_character_blocky",
@@ -59,7 +59,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 4,
-    "yorigin": 4,
+    "yorigin": 5,
     "eventToFunction": {},
     "eventStubScript": null,
   },
@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Characters/Louie/Sprites.yy",
+    "path": "folders/Characters/Stuffie Kingdom/Louie/Sprites.yy",
   },
 }

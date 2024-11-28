@@ -87,6 +87,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Characters/Flopsy/Attacks/Sprites.yy",
+    "path": "folders/Characters/Dark Cove/Flopsy/Attacks/Sprites.yy",
   },
 }

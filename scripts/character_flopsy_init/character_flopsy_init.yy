@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "Flopsy",
-    "path": "folders/Characters/Flopsy.yy",
+    "path": "folders/Characters/Dark Cove/Flopsy.yy",
   },
 }

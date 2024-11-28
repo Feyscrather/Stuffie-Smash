@@ -22,7 +22,7 @@ function character_data_get_all()
 			),
 		character_define
 			(
-			"Polygon",
+			"Flopsy",
 			character_flopsy_init,
 			spr_poly_palette,
 			spr_poly_css,
@@ -42,7 +42,7 @@ function character_data_get_all()
 			spr_vert_css,
 			spr_vert_css,
 			spr_vert_portrait,
-			spr_vert_stock,
+			spr_george_stock,
 			spr_vert_render,
 			song_default_victory,
 			["texture_character_vert", "texture_character_basic"],
@@ -56,7 +56,7 @@ function character_data_get_all()
 			spr_scalar_css,
 			spr_scalar_css,
 			spr_scalar_portrait,
-			spr_scalar_stock,
+			spr_storm_stock,
 			spr_scalar_render,
 			song_default_victory,
 			["texture_character_scalar"],

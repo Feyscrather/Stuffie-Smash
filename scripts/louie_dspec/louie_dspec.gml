@@ -43,9 +43,12 @@ function louie_dspec()
 				
 					attack_phase++;
 					attack_frame = 20;
+					if (custom_passive_struct.dspec_target != -1) {
+						attack_phase = 4;
+					}
+					invulnerability_set(INV.counter, 20);
 					speed_set(0, 1, true, false);
 					}
-				
 				//Movement
 				move();
 				break;
@@ -105,8 +108,6 @@ function louie_dspec()
 					
 				if (attack_frame == 0)
 					{
-					custom_passive_struct.potion_count++
-					if (custom_passive_struct.potion_count > 5) custom_passive_struct.potion_count = 5;
 					attack_stop();
 					}
 				
@@ -118,7 +119,7 @@ function louie_dspec()
 			case PHASE.counter:
 				{
 				var _attacking_hitbox = argument[1];
-				
+				custom_passive_struct.dspec_target = _attacking_hitbox.player_id;
 				//Freeze frames for both players
 				self_hitlag_frame = 10;
 				_attacking_hitbox.owner.self_hitlag_frame = 16;
@@ -186,6 +187,13 @@ function louie_dspec()
 				move();
 				break;
 				}
+			case 4:
+				with (custom_passive_struct.dspec_target) {
+					other.x = x;
+					other.y = y;
+				}
+				custom_passive_struct.dspec_target = -1;
+				attack_stop();
 			}
 		}
 	}

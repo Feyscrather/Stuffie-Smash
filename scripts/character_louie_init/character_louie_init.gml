@@ -209,15 +209,8 @@ function character_louie_init()
 		
 		//Custom Scripts
 		draw_script = -1;
-		bayonetta_fspec_afterburner_passive()
 		callback_add(callback_passive, louie_fspec_passive, CALLBACK_TYPE.permanent);
 		callback_add(callback_passive, louie_passive, CALLBACK_TYPE.permanent);
-		callback_add(callback_passive, louie_fsmash_passive, CALLBACK_TYPE.permanent);
-		callback_add(callback_passive, louie_uthrow_passive, CALLBACK_TYPE.permanent);
-		callback_add(callback_passive, louie_fthrow_passive, CALLBACK_TYPE.permanent);
-		callback_add(callback_passive, louie_fair_passive, CALLBACK_TYPE.permanent);
-		callback_add(callback_passive, louie_uair_passive, CALLBACK_TYPE.permanent);
-		callback_add(callback_passive, louie_bair_passive, CALLBACK_TYPE.permanent);
 		callback_add(callback_hud, louie_hud, CALLBACK_TYPE.permanent);
 		}
 
@@ -239,17 +232,17 @@ function character_louie_init()
 		my_attacks[$ "Utilt"		] = vert_utilt;
 		my_attacks[$ "Dtilt"		] = blocky_ftilt;
 				 
-		my_attacks[$ "Fsmash"		] = louie_fsmash;
+		my_attacks[$ "Fsmash"		] = basic_fsmash_spinning;
 		my_attacks[$ "Usmash"		] = rad_usmash;
 		my_attacks[$ "Dsmash"		] = pichu_dsmash;
 				 
 		my_attacks[$ "Nair"			] = louie_nair;
-		my_attacks[$ "Fair"			] = louie_fair;
-		my_attacks[$ "Bair"			] = louie_bair;
-		my_attacks[$ "Uair"			] = louie_uair;
+		my_attacks[$ "Fair"			] = bowser_fair;
+		my_attacks[$ "Bair"			] = k_rool_bair;
+		my_attacks[$ "Uair"			] = mario_uair;
 		my_attacks[$ "Dair"			] = scalar_dair;
 				 
-		my_attacks[$ "Nspec"		] = louie_nspec;
+		my_attacks[$ "Nspec"		] = basic_nspec_shot_put;
 		my_attacks[$ "Fspec"		] = louie_fspec;
 		my_attacks[$ "Uspec"		] = mewtwo_uspec_teleport;
 		my_attacks[$ "Dspec"		] = louie_dspec;
@@ -259,9 +252,9 @@ function character_louie_init()
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				 
-		my_attacks[$ "Fthrow"		] = louie_fthrow;
+		my_attacks[$ "Fthrow"		] = louie_fthrow_strength;
 		my_attacks[$ "Bthrow"		] = poly_bthrow;
-		my_attacks[$ "Uthrow"		] = louie_uthrow;
+		my_attacks[$ "Uthrow"		] = basic_uthrow_jump;
 		my_attacks[$ "Dthrow"		] = vert_dthrow;
 		
 		my_attacks[$ "Getup_Attack"	] = basic_getup_attack;

@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Stuffie Smash",
-    "path": "Stuffie Smash.yyp",
+    "name": "Stuffie-Smash",
+    "path": "Stuffie-Smash.yyp",
   },
 }
