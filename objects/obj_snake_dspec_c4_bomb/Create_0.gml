@@ -14,7 +14,7 @@ _s.max_fall_speed = 9;
 _ids.attached = noone;
 _s.grounded = false;
 _s.explosion_time = -1;
-_s.auto_explode_timer = 480;
+_s.auto_explode_timer = 60;
 
 image_speed = 0
 image_xscale = 2;

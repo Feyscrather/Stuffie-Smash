@@ -36,8 +36,8 @@ function character_data_get_all()
 			),
 		character_define
 			(
-			"Vertex",
-			character_vert_init,
+			"George",
+			character_george_init,
 			spr_vert_palette,
 			spr_vert_css,
 			spr_vert_css,
@@ -63,13 +63,13 @@ function character_data_get_all()
 			),
 		character_define
 			(
-			"Radian",
-			character_rad_init,
+			"Draco",
+			character_draco_init,
 			spr_rad_palette,
 			spr_rad_css,
 			spr_rad_css,
 			spr_rad_portrait,
-			spr_rad_stock,
+			spr_draco_stock,
 			spr_rad_render,
 			song_default_victory,
 			["texture_character_rad", "texture_character_basic"],

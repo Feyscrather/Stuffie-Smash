@@ -1,5 +1,5 @@
 //Sets all of the variables for a character
-function character_george_init()
+function character_draco_init()
 	{
 	if (!object_is(object_index, obj_player))
 		{
@@ -223,36 +223,36 @@ function character_george_init()
 	//Attacks
 	if (_set_attacks)
 		{
-		my_attacks[$ "Jab"			] = rad_jab;
-		my_attacks[$ "Dash_Attack"	] = basic_dash_attack_leap;
-		my_attacks[$ "Ftilt"		] = byleth_ftilt;
-		my_attacks[$ "Utilt"		] = vert_utilt;
-		my_attacks[$ "Dtilt"		] = rad_dtilt;
+		my_attacks[$ "Jab"			] = chrom_jab;
+		my_attacks[$ "Dash_Attack"	] = mewtwo_dash_attack;
+		my_attacks[$ "Ftilt"		] = min_min_ftilt;
+		my_attacks[$ "Utilt"		] = falcon_utilt;
+		my_attacks[$ "Dtilt"		] = blocky_dtilt;
 				 
-		my_attacks[$ "Fsmash"		] = ganon_fsmash;
-		my_attacks[$ "Usmash"		] = scalar_usmash;
-		my_attacks[$ "Dsmash"		] = blocky_dsmash;
+		my_attacks[$ "Fsmash"		] = scalar_fsmash;
+		my_attacks[$ "Usmash"		] = sheik_usmash;
+		my_attacks[$ "Dsmash"		] = rad_dsmash;
 				 
-		my_attacks[$ "Nair"			] = joker_nair;
-		my_attacks[$ "Fair"			] = clairen_fair;
-		my_attacks[$ "Bair"			] = mario_bair;
-		my_attacks[$ "Uair"			] = ivysaur_uair;
-		my_attacks[$ "Dair"			] = marth_dair;
+		my_attacks[$ "Nair"			] = palutena_nair;
+		my_attacks[$ "Fair"			] = ridley_fair;
+		my_attacks[$ "Bair"			] = forsburn_bair;
+		my_attacks[$ "Uair"			] = luigi_uair;
+		my_attacks[$ "Dair"			] = falco_dair;
 				 
-		my_attacks[$ "Nspec"		] = mario_nspec_fireball;
-		my_attacks[$ "Fspec"		] = falcon_fspec;
-		my_attacks[$ "Uspec"		] = mario_uspec;
-		my_attacks[$ "Dspec"		] = basic_dspec_counter;
+		my_attacks[$ "Nspec"		] = steve_nspec_build;
+		my_attacks[$ "Fspec"		] = corrin_fspec;
+		my_attacks[$ "Uspec"		] = byleth_uspec;
+		my_attacks[$ "Dspec"		] = draco_dspec;
 				 
 		my_attacks[$ "Grab"			] = basic_grab;
 		my_attacks[$ "Dash_Grab"	] = basic_dash_grab;
 		my_attacks[$ "Pummel"		] = basic_pummel;
 		my_attacks[$ "Zair"			] = -1;
 				  
-		my_attacks[$ "Fthrow"		] = basic_fthrow_spin;
-		my_attacks[$ "Bthrow"		] = rad_bthrow;
-		my_attacks[$ "Uthrow"		] = basic_uthrow_combo;
-		my_attacks[$ "Dthrow"		] = rad_dthrow;
+		my_attacks[$ "Fthrow"		] = mewtwo_fthrow;
+		my_attacks[$ "Bthrow"		] = blocky_bthrow;
+		my_attacks[$ "Uthrow"		] = rad_uthrow;
+		my_attacks[$ "Dthrow"		] = basic_dthrow_combo;
 		
 		my_attacks[$ "Getup_Attack"	] = basic_getup_attack;
 		my_attacks[$ "Ledge_Attack"	] = basic_ledge_attack;

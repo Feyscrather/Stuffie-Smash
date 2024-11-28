@@ -80,15 +80,15 @@ function snake_dspec_c4()
 						var _entity = entity_create(x, y, obj_snake_dspec_c4_bomb, "Player_Front");
 						_entity.hsp = -6;
 						_entity.vsp = -3;
-						_entity.custom_entity_struct.auto_explode_timer = 720;
+						_entity.custom_entity_struct.auto_explode_timer = 60;
 						var _entity = entity_create(x, y, obj_snake_dspec_c4_bomb, "Player_Front");
 						_entity.hsp = 0;
 						_entity.vsp = -2;
-						_entity.custom_entity_struct.auto_explode_timer = 720;
+						_entity.custom_entity_struct.auto_explode_timer = 60;
 						var _entity = entity_create(x, y, obj_snake_dspec_c4_bomb, "Player_Front");
 						_entity.hsp = 6;
 						_entity.vsp = -3;
-						_entity.custom_entity_struct.auto_explode_timer = 720;
+						_entity.custom_entity_struct.auto_explode_timer = 60;
 						}
 					//Grounded
 					else if (on_ground())
